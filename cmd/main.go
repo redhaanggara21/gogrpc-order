@@ -5,11 +5,11 @@ import (
 	"log"
 	"net"
 
-	"github.com/hellokvn/go-grpc-order-svc/pkg/client"
-	"github.com/hellokvn/go-grpc-order-svc/pkg/config"
-	"github.com/hellokvn/go-grpc-order-svc/pkg/db"
-	"github.com/hellokvn/go-grpc-order-svc/pkg/pb"
-	"github.com/hellokvn/go-grpc-order-svc/pkg/service"
+	"github.com/redhaanggara21/go-grpc-order-svc/pkg/client"
+	"github.com/redhaanggara21/go-grpc-order-svc/pkg/config"
+	"github.com/redhaanggara21/go-grpc-order-svc/pkg/db"
+	"github.com/redhaanggara21/go-grpc-order-svc/pkg/pb"
+	"github.com/redhaanggara21/go-grpc-order-svc/pkg/service"
 	"google.golang.org/grpc"
 )
 

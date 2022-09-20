@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hellokvn/go-grpc-order-svc/pkg/pb"
+	"github.com/redhaanggara21/go-grpc-order-svc/pkg/pb"
 	"google.golang.org/grpc"
 )
 
@@ -39,6 +39,5 @@ func (c *ProductServiceClient) DecreaseStock(productId int64, orderId int64) (*p
 		Id:      productId,
 		OrderId: orderId,
 	}
-
 	return c.Client.DecreaseStock(context.Background(), req)
 }
