@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/hellokvn/go-grpc-order-svc/pkg/client"
-	"github.com/hellokvn/go-grpc-order-svc/pkg/db"
-	"github.com/hellokvn/go-grpc-order-svc/pkg/models"
-	"github.com/hellokvn/go-grpc-order-svc/pkg/pb"
+	"github.com/redhaanggara21/go-grpc-order-svc/pkg/client"
+	"github.com/redhaanggara21/go-grpc-order-svc/pkg/db"
+	"github.com/redhaanggara21/go-grpc-order-svc/pkg/models"
+	"github.com/redhaanggara21/go-grpc-order-svc/pkg/pb"
 )
 
 type Server struct {
@@ -17,6 +17,8 @@ type Server struct {
 
 func (s *Server) CreateOrder(ctx context.Context, req *pb.CreateOrderRequest) (*pb.CreateOrderResponse, error) {
 	product, err := s.ProductSvc.FindOne(req.ProductId)
+
+	// fmt.Print(product)
 
 	if err != nil {
 		return &pb.CreateOrderResponse{Status: http.StatusBadRequest, Error: err.Error()}, nil

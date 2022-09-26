@@ -66,8 +66,8 @@ github.com/google/uuid v1.1.2/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+
 github.com/grpc-ecosystem/grpc-gateway v1.16.0/go.mod h1:BDjrQk3hbvj6Nolgz8mAMFbcEtjT1g+wF4CSlocrBnw=
 github.com/hashicorp/hcl v1.0.0 h1:0Anlzjpi4vEasTeNFn2mLJgTSwt0+6sfsiTG8qcWGx4=
 github.com/hashicorp/hcl v1.0.0/go.mod h1:E5yfLk+7swimpb2L/Alb/PJmXilQ/rhwaUYs4T20WEQ=
-github.com/hellokvn/go-grpc-proto v0.0.0-20220323215141-ce7817ac1f88 h1:L7Nrp8mxKV0Zxtd0681CZ1IQSeYqDa4t231fI755kMw=
-github.com/hellokvn/go-grpc-proto v0.0.0-20220323215141-ce7817ac1f88/go.mod h1:7ocMIOqhy57CbC9EQTFuQIEOXQX/JcQYxm+mlfTSids=
+github.com/redhaanggara21/go-grpc-proto v0.0.0-20220323215141-ce7817ac1f88 h1:L7Nrp8mxKV0Zxtd0681CZ1IQSeYqDa4t231fI755kMw=
+github.com/redhaanggara21/go-grpc-proto v0.0.0-20220323215141-ce7817ac1f88/go.mod h1:7ocMIOqhy57CbC9EQTFuQIEOXQX/JcQYxm+mlfTSids=
 github.com/jackc/chunkreader v1.0.0 h1:4s39bBR8ByfqH+DKm8rQA3E1LHZWB9XWcrz8fqaZbe0=
 github.com/jackc/chunkreader v1.0.0/go.mod h1:RT6O25fNZIuasFJRyZ4R/Y2BbhasbmZXF9QQ7T3kePo=
 github.com/jackc/chunkreader/v2 v2.0.0/go.mod h1:odVSm741yZoC3dpHEUXIqA9tQRhFrgOHwnPIn9lDKlk=
